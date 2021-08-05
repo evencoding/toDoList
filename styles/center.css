@@ -1,0 +1,84 @@
+.center-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.userName {
+  font-size: 30px;
+  background: linear-gradient(to right, skyblue, red);
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  width: 250px;
+  border-radius: 30px;
+}
+
+#clock {
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 65px;
+  margin-bottom: 0;
+}
+
+.day {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 6%;
+  color: white;
+}
+
+.center-content form input {
+  background-color: gray;
+  outline: none;
+  padding: 0px 10px;
+  margin-bottom: 6%;
+  height: 45px;
+  width: 400px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  color: white;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.center-content form input::placeholder {
+  color: white;
+}
+
+.todo-List {
+  padding-left: 0;
+  list-style: none;
+  opacity: 0.9;
+}
+
+.todo-List li {
+  padding-bottom: 6%;
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+}
+
+.todo-List li span {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.todo-List li button {
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 30px;
+  width: 50px;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.todo-List li button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="left-content">
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://nomadcoders.co/?gclid=CjwKCAjwmK6IBhBqEiwAocMc8nvicdLGy6Iys1wvEGMD3nVaD-DDgmjOQgaPL7uaQEnlbzsDE8ZAChoC6uoQAvD_BwE">NomadCoder</a>
+      <a href="https://www.acmicpc.net/">BeakJoon</a>
+      <a href="https://en.dict.naver.com/#/main">네이버 영어사전</a>
+      <a href="https://papago.naver.com/">Papago</a>
+      <a href="https://fontawesome.com/">Font Awesome</a>
+      <a href="https://ko.javascript.info/">JavaScript.info</a>
+      <a href="https://react.vlpt.us/basic/27-useful-tools.html">React.info</a>
+    </div>
+    <div class="center-content">
+      <h3 class="userName hidden"></h4>
+      <h1 id="clock"></h1>
+      <span class="day"></span>
+      <form action="" id="input-Name">
+        <input type="text" class="name-value" placeholder="이름을 입력 해 주세요" required />
+      </form>
+      <form action="" id="input-ToDo" class="hidden">
+        <input type="text" name="" class="todo-value" placeholder="ToDoList를 작성 해 주세요" />
+      </form>
+      <ul class="todo-List"></ul>
+    </div>
+    <div class="right-content">
+      <div class="right__column-weather">
+        <div id="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/background.js"></script>
+  </body>
+</html>

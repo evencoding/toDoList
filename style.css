@@ -1,0 +1,25 @@
+@import "styles/clock.css";
+@import "styles/left.css";
+@import "styles/right.css";
+@import "styles/center.css";
+
+img {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  height: 100vh;
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden {
+  display: none;
+}
