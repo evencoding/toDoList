@@ -1,7 +1,7 @@
-@import "styles/clock.css";
-@import "styles/left.css";
-@import "styles/right.css";
-@import "styles/center.css";
+@import "./styles/clock.css";
+@import "./styles/left.css";
+@import "./styles/right.css";
+@import "./styles/center.css";
 
 img {
   z-index: -1;
