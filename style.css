@@ -2,6 +2,7 @@
 @import "./styles/left.css";
 @import "./styles/right.css";
 @import "./styles/center.css";
+@import "./styles/timer.css";
 
 img {
   z-index: -1;
