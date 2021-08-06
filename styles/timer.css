@@ -6,8 +6,8 @@ html {
 
 .timer-container {
   position: relative;
-  top: 30%;
-  right: 60%;
+  top: 40%;
+  right: 40%;
   color: rgb(50, 50, 50);
   font-family: "Roboto", sans-serif;
   display: inline-block;
